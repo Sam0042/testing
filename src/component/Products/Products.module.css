@@ -1,0 +1,47 @@
+.container{
+    margin: 1rem 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.product__container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.left__container{
+    border-radius: 20px;
+    background-color: #B5179E;
+    padding-bottom: 20px;
+    width: 21rem;
+    margin-right: 2rem;
+}
+
+.left__img{
+    border-radius: 20px;
+    margin: 20px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.left__title{
+    color: #E7C30D;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.left__paragraph{
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.left__button{
+    margin: 10% 8rem;
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+.container{
+    background-color: #B5179E;
+    color: #E7C30D;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 5px rgb(30,30,30,0.3);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar__item{
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.navbar__brand{
+    font-size: 25px;
+    margin: 1rem 2rem 1rem;
+    font-family: 'Dela Gothic One', cursive;
+}

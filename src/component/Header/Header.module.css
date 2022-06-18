@@ -1,0 +1,42 @@
+.container{
+    background-color: #B5179E;
+    margin: 1rem 2rem;
+    border-radius: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.left__container{
+    margin: 3rem 4rem;
+}
+
+.left__title{
+    color: #E7C30D;
+}
+
+.left__paragraph{
+    margin-top: 2%;
+    color: white;
+}
+
+.left__button{
+    margin-top: 2%;
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+}
+
+.right__container{
+    margin: 1.5rem 4rem;
+}
+
+.right__img{
+    border-radius: 20px;
+    width: 500px;
+    height: 330px;
+}
+
